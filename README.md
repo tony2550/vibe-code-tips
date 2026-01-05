@@ -1,20 +1,16 @@
-# Google Antigravity & Vibe Coding 가이드
+# Vibe Coding Efficiency Project
 
-Google Antigravity를 극한까지 활용하기 위한 바이브 코딩(Vibe Coding) 가이드입니다. 기존의 긴 보고서 형식에서 주제별 모듈로 분리하여 재구성했습니다.
+## 프로젝트 개요
+이 프로젝트는 **바이브 코딩(Vibe Coding)**의 효율을 극한으로 끌어올리기 위한 가이드와 팁을 정리하는 문서 보관소입니다. 각 바이브 코딩 툴(Google Antigravity, Claude Code 등)별로 폴더를 나누어 전문적인 지식과 노하우를 관리합니다.
 
-## 01.intro
+## 디렉토리 구조
 
-### 1. [Vibe Coding (바이브 코딩)](./01_Vibe_Coding.md)
-바이브 코딩의 정의(Andrej Karpathy)와 핵심 철학("Code First, Refine Later")에 대해 다룹니다.
+### 1. [Google Antigravity](./antigravity/README.md)
+Google의 에이전트 기반 IDE인 Antigravity 활용법을 다룹니다.
+- **주요 내용**: 아키텍처, 리스크 관리, 성공 전략, Pro Tips.
+- **위치**: `antigravity/`
 
-### 2. [Antigravity Architecture (플랫폼 아키텍처)](./02_Antigravity_Architecture.md)
-Antigravity의 3가지 표면(Agent Manager, Editor, Browser)과 산출물 시스템(Task, Implementation Plan)을 이해합니다.
-
-### 3. [Risk Management (리스크 관리)](./03_Risk_Management.md)
-바이브 행오버, 환각(Hallucination), 보안 위협 등 주의해야 할 기술적 리스크와 방어 전략입니다.
-
-### 4. [Strategies for Success (성공 전략)](./04_Strategies_for_Success.md)
-Meta-Prompting, Multi-Agent Orchestration, 교차 모델 검증 등 시니어 개발자를 위한 고급 활용 전략입니다.
-
-### 5. [Pro Tips (실전 팁)](./05_Pro_Tips.md)
-생산성을 높이는 단축키, `settings.json` 보안 설정, 컨텍스트 관리 기법 등을 정리했습니다.
+### 2. [Claude Code (Anthropic)](./claudecode/tips-260105.md)
+Anthropic의 CLI 기반 에이전트 툴인 Claude Code의 활용 팁을 다룹니다.
+- **주요 내용**: 창시자가 알려주는 꿀팁, 워크플로우 최적화.
+- **위치**: `claudecode/`
